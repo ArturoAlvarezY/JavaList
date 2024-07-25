@@ -1,17 +1,15 @@
 package dev.arturo;
 
+import dev.arturo.models.Week;
+
 /**
  * Hello world!
  */
 public final class App {
-    private App() {
-    }
+public static void main(String[] args) {
+    Week week = new Week();
 
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+    System.out.println();
 }
+}
+    
