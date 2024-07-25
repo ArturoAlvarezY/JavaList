@@ -7,9 +7,10 @@ import dev.arturo.models.Week;
  */
 public final class App {
 public static void main(String[] args) {
+
     Week week = new Week();
 
-    System.out.println();
+    System.out.println(week.clearAll());
 }
 }
     

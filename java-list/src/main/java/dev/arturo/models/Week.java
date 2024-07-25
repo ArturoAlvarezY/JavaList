@@ -46,13 +46,22 @@ import java.util.List;
     return false;
    }
 
-  public void alphabeticOrder() {
-    Collections.sort(weekDays);
-  }
+  public List<String> alphabeticOrder(){
 
-  public void clearList() {
-    weekDays.clear();
-  }
+    List<String> orderedDays = new ArrayList<>(weekDays);
+
+    Collections.sort(orderedDays);
+
+    return orderedDays;
+}
+
+public List<String> clearAll(){
+    List<String> eraseList = new ArrayList<>(weekDays);
+
+    eraseList.clear();
+
+    return eraseList;
+}
     }
     
         
